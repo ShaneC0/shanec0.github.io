@@ -1,0 +1,35 @@
+
+body {
+    background: #2d2e2f;
+    color: #dcedff;
+    font-family: 'Raleway', sans-serif;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    font-size: 10vh;
+    margin-bottom: 3vh;
+    
+}
+
+.subheader {
+    font-size: 5vh;
+    margin-top: 3vh;
+}
+
+.link-group {
+    display: flex;
+    justify-content: center;
+}
+
+.link {
+    margin-left: 2vw;
+    margin-right: 2vw;
+    font-size: 5vh;
+}
