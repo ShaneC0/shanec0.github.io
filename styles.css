@@ -10,12 +10,12 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-shadow: 4px 4px 6px rgba(0,0,0,0.8);
 }
 
 .header {
     font-size: 10vh;
     margin-bottom: 3vh;
-    
 }
 
 .subheader {
@@ -25,11 +25,30 @@ body {
 
 .link-group {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .link {
     margin-left: 2vw;
     margin-right: 2vw;
     font-size: 5vh;
+    color: #2d2e2f;
+}
+
+.link-card {
+    background: #dcedff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    padding: 1rem;
+    color: #2d2e2f;
+    box-shadow: 4px 4px 6px rgba(0,0,0,0.8);
+    border-radius: 1rem;
+}
+
+.card-picture {
+    width: 25vw;
+    height: 25vh;
 }
