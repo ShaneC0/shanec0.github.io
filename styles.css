@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 
 body {
     background: #2d2e2f;
@@ -15,17 +21,16 @@ body {
 
 .header {
     font-size: 10vh;
-    margin-bottom: 3vh;
 }
 
 .subheader {
     font-size: 5vh;
-    margin-top: 3vh;
 }
 
 .link-group {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .link {
@@ -50,13 +55,11 @@ body {
 .card-picture {
     width: 25vw;
     height: 25vh;
-    margin-bottom: 2vh;
     border: 2px solid black;
 }
 
 .underline {
     width: 50%;
-    margin-bottom: 2vh;
     padding: 0;
 }
 
