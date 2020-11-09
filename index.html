@@ -11,57 +11,53 @@
     <title>Portfolio - @ShaneC0</title>
   </head>
   <body>
-    <div class="title">
-      <h3 class="header">Shane Connors</h3>
-      <h5 class="subheader">Full Stack Developer</h5>
-    </div>
-    <div class="link-group">
-      <div class="link-card">
-        <a class="link" href="https://shanec0.github.io/Pathfinder"
-          >Pathfiner</a
-        >
-        <hr class="underline" />
-        <span>A* and Dijkstra pathfinding visualization tool.</span>
-        <img class="card-picture" src="images/pathfinder.PNG" alt="" />
-        <h2>Stack</h2>
-        <hr class="underline underline-sm" />
-        <span>Javascript - React</span>
-        <h2>Links</h2>
-        <hr class="underline underline-sm" />
-        <a href="https://shanec0.github.io/Pathfinder">Website</a>
-        <a href="https://www.github.com/shanec0/Pathfinder">Repository</a>
-      </div>
-      <div class="link-card">
-        <a class="link" href="https://shanec0.github.io/Sorter">Sorter</a>
-        <hr class="underline" />
-        <span>Sorting algorithm visualization tool.</span>
-        <img class="card-picture" src="images/sorter.PNG" alt="" />
-        <h2>Stack</h2>
-        <hr class="underline underline-sm" />
-        <span>Javascript - React</span>
-        <h2>Links</h2>
-        <hr class="underline underline-sm" />
-        <a href="http://shanec0.github.io/Sorter">Website</a>
-        <a href="https://www.github.com/shanec0/Sorter">Repository</a>
-      </div>
-      <div class="link-card">
-        <a class="link" href="https://trackbackui.azurewebsites.net"
-          >Trackback</a
-        >
-        <hr class="underline" />
-        <span>Project manager.</span>
-        <img class="card-picture" src="images/trackback.PNG" alt="" />
-        <h2>Stack</h2>
-        <hr class="underline underline-sm" />
-        <span
-          >C# - ASP.NET Core - Entity Framework Core - SQLServer -
-          Bootstrap</span
-        >
-        <h2>Links</h2>
-        <hr class="underline underline-sm" />
-        <a href="https://trackbackui.azurewebsites.net">Website</a>
-        <a href="https://www.github.com/shanec0/trackback">Repository</a>
-      </div>
-    </div>
+    <header>
+      <nav>
+        <h2>Portfolio</h2>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="home">
+        <div class="welcome-text">
+          <h1>Shane Connors</h1>
+          <p>Self-taught Full Stack Developer</p>
+        </div>
+      </section>
+
+      <section class="projects">
+        <h1>Projects</h1>
+        <div class="card-group">
+
+          <div class="card">
+            <h3>Pathfinder</h3>
+            <h5>Javascript, React</h5>
+            <p>Educational pathfinding demonstration tool.</p>
+          </div>
+
+          <div class="card">
+            <h3>Sorter</h3>
+            <h5>Javascript, React</h5>
+            <p>Educational sorting demonstration tool.</p>
+          </div>
+
+          <div class="card">
+            <h3>Trackback</h3>
+            <h5>C#, ASP.NET Core, Entity Framework Core</h5>
+            <p>Project management dashboard.</p>
+          </div>
+          
+        </div>
+      </section>
+
+      <section class="contact">
+        <h1>Contact Me</h1>
+      </section>
+    </main>
   </body>
 </html>
