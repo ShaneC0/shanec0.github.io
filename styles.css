@@ -92,21 +92,50 @@ section h3 {
     top: 130%;
     left: 50%;
     width: 45vw;
+    box-shadow: 8px 8px 10px rgba(0,0,0,0.4);
+}
+
+.sorter {
+    background: linear-gradient(to right top, #aa4b6b, #6b6b83, #3b8d99)
+}
+
+.sorter h1 {
+    position: absolute;
+    top: 230%;
+    left: 50%;
+    transform: translate(-50%, -230%);
+    font-size: 48px;
+}
+
+.sorter img {
+    position: absolute;
+    top: 230%;
+    left: 50%;
+    width: 45vw;
+    box-shadow: 8px 8px 10px rgba(0,0,0,0.4);
 }
 
 .info {
-    position: absolute;
-    top: 130%;
-    left: 10%;
-    width: 45vw;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    height: 50vh;
+    justify-content: center;
+    align-items: left;
+    width: 50%;
+    height: 100vh;
+    margin-left: 7rem;
 }
 
-.card h3 {
-    font-size: 25px;
+.link-group {
+    display: flex;
+}
+
+.link-group a {
+    margin: 2rem;
+    margin-top: 10rem;
+    margin-left: 10rem;
+    display: block;
+    font-size: 24px;
+    text-decoration: underline;
 }
 
 .contact {
@@ -115,7 +144,7 @@ section h3 {
 
 .contact h1 {
     position: absolute;
-    top: 230%;
+    top: 330%;
     left: 50%;
     transform: translate(-50%, -330%);
     font-size: 48px;
