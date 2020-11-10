@@ -7,6 +7,7 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Source+Sans+Pro:wght@600&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./lib/fullpage.min.css" />
     <link rel="stylesheet" href="styles.css" />
     <title>Portfolio - @ShaneC0</title>
   </head>
@@ -22,45 +23,43 @@
       </nav>
     </header>
 
-    <main>
-      <section class="home">
-        <div class="welcome-text">
-          <h1>Shane Connors</h1>
-          <p>Self-taught Full Stack Developer</p>
-        </div>
-      </section>
-
-      <section class="pathfinder">
-        <h1>Pathfinder</h1>
-        <div class="info">
-          <h2>Educational pathfinding demonstration tool.</h2>
-
-          <h3>JavaScript, React</h3>
-          <div class="link-group">
-            <h4><a href="https://github.com/shanec0/pathfinder">Repository</a></h4>
-            <h4><a href="https://shanec0.github.io/Pathfinder">Website</a></h4>
+    <div id="fullpage">
+      <div class="section">
+        <div class="home">
+          <div>
+            <h1>Shane Connors</h1>
+            <p>Self-Taught Full Stack Developer</p>
           </div>
         </div>
-        <img src="./images/pathfinder.PNG" alt="pathfinder" />
-      </section>
+      </div>
 
-      <section class="sorter">
-        <h1>Sorter</h1>
-        <div class="info">
-          <h2>Educational sorting demonstration tool.</h2>
+      <div class="section">
+        <div class="pathfinder">
+          <h1>Pathfinder</h1>
 
-          <h3>JavaScript, React</h3>
-          <div class="link-group">
-            <h4><a href="https://github.com/shanec0/sorter">Repository</a></h4>
-            <h4><a href="https://shanec0.github.io/Sorter">Website</a></h4>
+          <div class="info">
+            <h2>Pathfinding visualization tool.</h2>
+
+            <h3>JavaScript, React</h3>
+            <p>
+              Animated and interactive maze solver utilizing A* and Dijkstra
+              pathfinding algorithms.
+            </p>
+            <div class="link-group">
+            <a href="https://shanec0.github.io/Pathfinder">Website</a>
+            <a href="https://github.com/shanec0/pathfinder">Repository</a>
           </div>
+          </div>
+          <img src="./images/pathfinder.PNG" alt="pathfinder" />
         </div>
-        <img src="./images/sorter.PNG" alt="sorter" />
-      </section>
+      </div>
 
-      <section class="contact">
-        <h1>Contact Me</h1>
-      </section>
-    </main>
+      <div class="section">Sorter</div>
+
+      <div class="section">Contact</div>
+    </div>
+
+    <script src="./lib/fullpage.min.js"></script>
+    <script src="./app.js"></script>
   </body>
 </html>
