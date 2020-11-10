@@ -50,6 +50,14 @@ header nav li {
     border-radius: 8px;
 }
 
+.section h1 {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -5%);
+    font-size: 64px;
+}
+
 .link-group {
     display: flex;
 }
@@ -97,7 +105,7 @@ header nav li {
     transform: translate(-50%, -50%);
 }
 
-.home h1 {
+.home h6 {
     font-size: 110px;
 }
 
@@ -107,13 +115,12 @@ header nav li {
 
 .pathfinder {
     background: linear-gradient(to right top, #8360c3, #2ebf91);
-    height: 100vh;
 }
 
-.pathfinder h1 {
-    position: absolute;
-    top: 5%;
-    left: 50%;
-    transform: translate(-50%, -5%);
-    font-size: 64px;
+.sorter {
+    background: linear-gradient(to right top, #aa4b6b, #6b6b83, #3b8d99)
+}
+
+.trackback {
+    background: linear-gradient(to right top, #000000, #434343)
 }
