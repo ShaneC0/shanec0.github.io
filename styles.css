@@ -42,10 +42,10 @@ header nav li {
 .section img {
     position: absolute;
     top: 50%;
-    left: 85%;
+    left: 90%;
     transform: translate(-85%, -50%);
     height: 60%;
-    width: 40%;
+    width: 50%;
     box-shadow: 8px 8px 10px rgba(0,0,0,0.4);
     border-radius: 8px;
 }
@@ -98,7 +98,7 @@ header nav li {
     height: 100vh;
 }
 
-.home div {
+.welcome-text {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -113,12 +113,16 @@ header nav li {
     font-size: 64px;
 }
 
+#pane {
+    z-index: 3;
+}
+
 .pathfinder {
     background: linear-gradient(to right top, #8360c3, #2ebf91);
 }
 
-.sorter {
-    background: linear-gradient(to right top, #aa4b6b, #6b6b83, #3b8d99)
+.classroom {
+    background: linear-gradient(to right top, #0F2027,#203A43, #2C5364)
 }
 
 .trackback {
