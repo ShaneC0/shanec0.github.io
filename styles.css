@@ -128,3 +128,7 @@ header nav li {
 .trackback {
     background: linear-gradient(to right top, #000000, #434343)
 }
+
+.disrupt {
+    background: linear-gradient(to right top, #00c6ff, #0072ff)
+}
